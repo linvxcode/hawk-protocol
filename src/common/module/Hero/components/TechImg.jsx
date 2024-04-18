@@ -7,7 +7,7 @@ import ComponentTransition from "@/common/component/element/ComponentTransition"
 import Image from "@/common/component/element/Image";
 
 const Tag = ({ icon }) => (
-  <div className="flex items-center overflow-hidden  rounded-full py-2 px-5 w-max ">
+  <div className="flex items-center   rounded-full py-2 px-5 w-full h-auto ">
     <Image
       className="w-full h-auto object-cover "
       src={icon}
