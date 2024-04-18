@@ -7,7 +7,7 @@ import ComponentTransition from "@/common/component/element/ComponentTransition"
 
 export default function SliderTechLeader() {
   return (
-    <div className="w-full flex justify-center py-10">
+    <div className="w-full h-auto flex justify-center py-10">
       <div className="w-full grid grid-cols-2 lg:grid-cols-3 gap-10 lg:px-20">
         {MediaPartnerItem.map((item, index) => (
           <ComponentTransition delay={index * 0.1} key={index}> 
