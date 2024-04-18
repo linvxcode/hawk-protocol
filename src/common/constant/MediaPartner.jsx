@@ -7,7 +7,7 @@ export const MediaPartnerItem = [
         img: '/Aset/ethereum.svg',
     },
     {
-        img: '/Aset/SolidProof.png',
+        img: '/Aset/Solidproof.png',
     },
     {
         img: '/Aset/Dextools.png',
