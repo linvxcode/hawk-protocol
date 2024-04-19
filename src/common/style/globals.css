@@ -41,3 +41,146 @@ body {
   /* background: linear-gradient(170deg, rgba(236, 58, 9, 0.20) 38.95%, rgba(236, 9, 9, 0.20) 92.27%); */
   filter: blur(95px);
 }
+
+.video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* height: 80vh; */
+  overflow: hidden;
+  z-index: -1;
+}
+
+.video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* .right-content {
+  position: relative;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  width: 100%;
+}
+
+.right-content-img {
+  position: relative;
+  margin-bottom: -250px;
+  max-width: 645px;
+  width: 100%; 
+  z-index: 1;
+}
+
+.right-content-img-items {
+  display: flex;
+  height: max-content;
+} */
+
+.right-content-img-safeboc {
+  /* bottom: 30px;
+  width: 25%;
+  max-width: 155px;
+  position: relative; */
+  transform: translateX(-50%);
+  animation: animateImage 2.1s infinite alternate;
+  z-index: 3;
+}
+
+.right-content-img-rocket {
+  /* bottom: 50px;
+  width: 25%;
+  max-width: 155px;
+  position: relative; */
+  transform: translateX(-50%);
+  animation: animateImage 1.9s infinite alternate; 
+  z-index: 3;
+}
+
+.right-content-img-documentlocked {
+  /* bottom: 75px;
+  width: 25%;
+  max-width: 155px;
+  position: relative; */
+  transform: translateX(-50%);
+  animation: animateImage 2s infinite alternate; 
+  z-index: 2;
+}
+
+.right-content-img-dollar {
+  /* bottom: 0;
+  width: 25%;
+  max-width: 155px;
+  position: relative; */
+  transform: translateX(-50%);
+  animation: animateImage 2.2s infinite alternate; 
+  z-index: 3;
+}
+
+
+/* .right-content-4th {
+  background-color: rgba(0, 254, 52);
+  width: 40%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 20px;
+  gap: 10px;
+  align-items: center;
+  justify-items: left;
+}
+
+.right-content-4th-grid {
+  display: grid;
+  justify-items: left;
+  text-align: left;
+  padding: 10px;
+}
+
+.right-content-4th-grid h3 {
+  margin: 0;
+  font-size: 32px;
+  font-family:'Gilroy', sans-serif;
+}
+
+.right-content-4th-grid p{
+  margin: 0;
+  font-size: 18px;
+}
+
+
+
+.content-6th-right {
+  position: relative;
+  right: 0;
+} */
+
+
+
+/* ---- */
+
+
+#animated-image-rocket {
+  right: 50px;
+  bottom: -100px;
+  height: 140px;
+  position: absolute;
+  transform: translateX(-50%);
+  animation: animateImage 2s infinite alternate; 
+}
+
+
+@keyframes animateImage {
+  from {
+      transform: translateY(0);
+  }
+  to {
+      transform: translateY(-50px); 
+  }
+}
+
+
+
+
+/* Media query for mobile */
