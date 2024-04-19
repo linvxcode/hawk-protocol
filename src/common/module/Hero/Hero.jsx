@@ -17,7 +17,7 @@ export default function Hero() {
   return (
     <div className="h-auto max-w-[1500px]  flex flex-col justify-start px-5 lg:px-10 pb-48 w-full mt-20 overflow-hidden ">
       <div className="video-background h-[24%] lg:h-[110vh]">
-        <video autoPlay loop muted playsinline className="video">
+        <video autoPlay loop muted playsInline className="video">
           <source src="/Aset/background.webm" type="video/webm" />
         </video>
       </div>
