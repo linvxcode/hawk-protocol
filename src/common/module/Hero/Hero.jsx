@@ -19,6 +19,7 @@ export default function Hero() {
       <div className="video-background h-[24%] lg:h-[110vh]">
         <video autoPlay loop muted playsInline className="video">
           <source src="/Aset/background.webm" type="video/webm" />
+          <source src="/Aset/background.mp4" type="video/mp4" />
         </video>
       </div>
       <div className="w-full gap-5 flex lg:flex-row flex-col justify-center items-center mt-28">
